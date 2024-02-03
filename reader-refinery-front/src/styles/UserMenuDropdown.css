@@ -1,0 +1,34 @@
+.dropdown {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #6666;
+    border: 1px solid #e2e8f0;
+    border-radius: 4px;
+    width: 200px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    z-index: 100;
+  }
+
+  .dropdown-container {
+    background: #6666;; /* Set the background to a light gray color */
+    /* You can add more styles here as needed */
+  }
+  
+  
+  /* .menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  } */
+
+  .dropdown-menu {
+    position: relative;
+    top: 100%; /* To make it appear right below the parent container */
+    right: 0; 
+    bottom: 0;
+    
+  }
+  
+
+  

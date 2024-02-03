@@ -1,0 +1,64 @@
+.feedBox {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 600px;
+  border: 1px solid lightgray;
+  background-color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  max-width: 700px;
+}
+
+.feedBox:hover {
+  border: 1px solid rgb(175, 175, 175);
+}
+
+.feedBox__info {
+  display: flex;
+  align-items: center;
+}
+
+.feedBox__info > h5 {
+  color: rgb(129, 129, 129);
+  font-weight: bold;
+  margin-left: 10px;
+  font-size: large;
+}
+
+.feedBox__feed {
+  display: flex;
+  margin-top: 8px;
+}
+
+.qHeader__Rem {
+  display: flex;
+  align-content: center;
+  margin-left: 0px;
+}
+
+.qHeader__Rem > .MuiSvgIcon-root {
+  font-size: xx-large;
+  color: gray;
+  margin-left: 25px;
+  cursor: pointer;
+}
+
+.qHeader__Rem > .MuiSvgIcon-root:hover {
+  color: #000;
+}
+
+.qHeader__Rem > .MuiButton-root {
+  color: white;
+  background: #222;
+  text-transform: inherit;
+  border-radius: 5px;
+  align-items: center;
+  margin: 0 5px; /* Adjust the margins here to create proper spacing */
+  flex-grow: 1; /* This will make the buttons take up the available space */
+}
+
+.qHeader__Rem > .MuiButton-root:hover {
+  color: #222;
+  background: rgb(214, 214, 214);
+}
